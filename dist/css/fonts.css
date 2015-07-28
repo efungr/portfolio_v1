@@ -1,0 +1,68 @@
+                                                   /* Font Styles */
+
+
+@font-face {
+    font-family: 'ArgentCF-LightItalic';
+    src: url("../fonts/ArgentCF-LightItalic.eot");
+    src: url('../fonts/ArgentCF-LightItalic.eot') format('embedded-opentype'),
+         url('../fonts/ArgentCF-LightItalic.ttf') format('truetype'),
+         url('../fonts/ArgentCF-LightItalic.woff2') format('woff2'),
+         url('../fonts/ArgentCF-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'ArgentCF-Regular';
+    src: url("../fonts/ArgentCF-Regular.eot");
+    src: url('../fonts/ArgentCF-Regular.eot') format('embedded-opentype'),
+         url('../fonts/ArgentCF-Regular.ttf') format('truetype'),
+         url('../fonts/ArgentCF-Regular.woff2') format('woff2'),
+         url('../fonts/ArgentCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'VisbyCF-Bold';
+    src: url("../fonts/VisbyCF-Bold.eot");
+    src: url('../fonts/VisbyCF-Bold.eot') format('embedded-opentype'),
+         url('../fonts/VisbyCF-Bold.ttf') format('truetype'),
+         url('../fonts/VisbyCF-Bold.woff2') format('woff2'),
+         url('../fonts/VisbyCF-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'VisbyCF-DemiBold';
+    src: url("../fonts/VisbyCF-DemiBold.eot");
+    src: url('../fonts/VisbyCF-DemiBold.eot') format('embedded-opentype'),
+         url('../fonts/VisbyCF-DemiBold.ttf') format('truetype'),
+         url('../fonts/VisbyCF-DemiBold.woff2') format('woff2'),
+         url('../fonts/VisbyCF-DemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'VisbyCF-ExtraBold';
+    src: url("../fonts/VisbyCF-ExtraBold.eot");
+    src: url('../fonts/VisbyCF-ExtraBold.eot') format('embedded-opentype'),
+         url('../fonts/VisbyCF-ExtraBold.ttf') format('truetype'),
+         url('../fonts/VisbyCF-ExtraBold.woff2') format('woff2'),
+         url('../fonts/VisbyCF-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'VisbyCF-Medium';
+    src: url("../fonts/VisbyCF-Medium.eot");
+    src: url('../fonts/VisbyCF-Medium.eot') format('embedded-opentype'),
+         url('../fonts/VisbyCF-Medium.ttf') format('truetype'),
+         url('../fonts/VisbyCF-Medium.woff2') format('woff2'),
+         url('../fonts/VisbyCF-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;  
+}

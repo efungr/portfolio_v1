@@ -1,0 +1,198 @@
+                  /* FONT STYLES */
+
+h1{
+    font-family: 'VisbyCF-Bold', sans-serif;
+    font-size: 28px;
+    color: #4D4D4D;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-family: 'VisbyCF-Bold', sans-serif;
+    font-size: 43px;
+    color: #4D4D4D;
+}
+
+h3{
+    font-family: 'VisbyCF-ExtraBold', sans-serif;
+    font-size: 18pt;
+    color: #4D4D4D;
+}
+
+h4{
+    font-family: 'VisbyCF-Bold', sans-serif;
+    font-size: 22px;
+    color: #4D4D4D;
+}
+
+h5{
+    font-family: 'VisbyCF-ExtraBold', sans-serif;
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+p{
+    font-family: 'ArgentCF-LightItalic', serif;
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+a{
+    color: #2D2837;
+}
+
+.title{
+    font-family: 'VisbyCF-DemiBold', sans-serif;
+    font-size: 90px;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.subtitle {
+    font-family: 'VisbyCF-DemiBold', sans-serif;
+    font-size: 21px;
+    letter-spacing: 15px;
+    padding-top: 0px;
+    margin-top: 0;
+    color: #C9B882;
+}
+
+.pbig{
+    font-family: 'ArgentCF-Regular', serif;
+    font-size: 24px;
+}
+
+.btnh{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.lnkh{
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding-top: 10vh;
+}
+
+.lnksm{
+    font-family: 'VisbyCF-Regular', sans-serif;
+    font-size: 10px;
+}
+
+.project-header{
+    padding-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.project-p{
+}
+
+
+                  /* GLOBAL STYLES */
+
+.container{
+    text-align: center;
+    width: 100%;
+}
+
+.vhfull{
+    min-height: 100vh;
+}
+
+.width80{
+    width: 80%;
+}
+
+.padding-bottom{
+    padding-bottom: 10vh;
+}
+
+                  /* HAMBURGER STYLES */
+
+                  /* LANDING PAGE STYLES */
+.landing-page{
+    background-color: #820F00;
+    display: flex;
+}
+
+.titletext{
+    width: 100%;
+    margin-top: 40vh;
+}
+
+                  /* ABOUT PAGE STYLES */
+.about-page{
+    background-color: #F6F4C2;
+    display: flex;
+}
+
+.abouth1{
+    padding: 15vh 0;
+}
+
+.aboutbp{
+    padding-top: 8vh;
+    margin-bottom: 0;
+}
+
+.aboutp{
+}
+                  /* PROJECTS PAGE STYLES */
+
+.texthover{
+    visibility: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease-in-out;
+}
+
+.project-lnk:hover .texthover{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.projects-page{
+    background-color: #C9B882;
+}
+
+.projecth1{
+    padding: 15vh 0;
+}
+                  /* CONTACT PAGE STYLES */
+
+.contact-page{
+    display: flex;
+    background-color: #67634F;    
+}
+
+.contacth1{
+    padding: 15vh 0;
+    color: #B3B3B3;
+}
+
+.btn-contact{
+    max-width: 400px;
+    border-radius: 50px;
+    border: 6px double #B3B3B3;
+    padding: 0;
+    margin-top: 15vh;
+}
+
+                  /* FOOTER PAGE STYLES */
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #67634F;
+}
+
+                  /* PROJECT DETAILS PAGE STYLES */
+
+
+.lnksm{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}

@@ -3,60 +3,71 @@
 h1{
     font-family: 'VisbyCF-Bold', sans-serif;
     font-size: 28px;
-    color: #4D4D4D;
+    color: #666666;
     letter-spacing: 2px;
 }
 
 h2{
     font-family: 'VisbyCF-Bold', sans-serif;
     font-size: 43px;
-    color: #4D4D4D;
+    color: #666666;
 }
 
 h3{
     font-family: 'VisbyCF-ExtraBold', sans-serif;
     font-size: 18pt;
-    color: #4D4D4D;
+    color: #666666;
 }
 
 h4{
     font-family: 'VisbyCF-Bold', sans-serif;
     font-size: 22px;
-    color: #4D4D4D;
+    color: #666666;
 }
 
 h5{
     font-family: 'VisbyCF-ExtraBold', sans-serif;
     font-size: 13px;
-    color: #4D4D4D;
+    color: #666666;
 }
 
 p{
     font-family: 'ArgentCF-LightItalic', serif;
     font-size: 18px;
-    color: #4D4D4D;
+    color: #666666;
 }
 
 a{
-    color: #2D2837;
+    color: #98412E;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #96AB8A;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #214457;
+    text-decoration: none;
 }
 
 .title{
     font-family: 'VisbyCF-DemiBold', sans-serif;
     font-size: 90px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #F8F9ED;
 }
 
 .subtitle {
     font-family: 'VisbyCF-DemiBold', sans-serif;
     font-size: 21px;
-    letter-spacing: 15px;
-    padding-top: 0px;
-    margin-top: 0;
-    color: #C9B882;
+    letter-spacing: 9.5px;
+    padding: 4px 0;
+    margin: 0;
+    color: #DFDCB3;
 }
 
 .pbig{
@@ -65,7 +76,7 @@ a{
 }
 
 .btnh{
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
 }
 
@@ -109,11 +120,18 @@ a{
     padding-bottom: 10vh;
 }
 
+.line{
+    margin: 0 auto;
+    width: 75px;
+    height: 3px;
+    background-color: #666666; 
+}
+
                   /* HAMBURGER STYLES */
 
                   /* LANDING PAGE STYLES */
 .landing-page{
-    background-color: #820F00;
+    background-color: #98412E;
     display: flex;
 }
 
@@ -124,22 +142,25 @@ a{
 
                   /* ABOUT PAGE STYLES */
 .about-page{
-    background-color: #F6F4C2;
+    background-color: #F8F9ED;
     display: flex;
 }
 
 .abouth1{
-    padding: 15vh 0;
+    padding: 15vh 0 0 0;
 }
 
 .aboutbp{
-    padding-top: 8vh;
+    padding-top: 25vh;
     margin-bottom: 0;
 }
 
 .aboutp{
 }
                   /* PROJECTS PAGE STYLES */
+.projecth1+.line{
+    margin-bottom: 15vh;
+}
 
 .texthover{
     visibility: hidden;
@@ -154,22 +175,21 @@ a{
 }
 
 .projects-page{
-    background-color: #C9B882;
+    background-color: #F8F9ED;
 }
 
 .projecth1{
-    padding: 15vh 0;
+    padding: 15vh 0 0 0;
 }
                   /* CONTACT PAGE STYLES */
 
 .contact-page{
     display: flex;
-    background-color: #67634F;    
+    background-color: #F8F9ED;
 }
 
 .contacth1{
-    padding: 15vh 0;
-    color: #B3B3B3;
+    padding: 15vh 0 0 0;
 }
 
 .btn-contact{
@@ -185,7 +205,7 @@ a{
 footer{
     height: 50px;
     width: 100%;
-    background-color: #67634F;
+    background-color: #F8F9ED;
 }
 
                   /* PROJECT DETAILS PAGE STYLES */

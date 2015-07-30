@@ -23,11 +23,22 @@
 
         <div class="container">
             <header>
-                <div class="hamburger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
+                    <div class="menu">
+                        <a class="dropdown">
+                            <div class="hamburger">
+                                <div class="hline"></div>
+                                <div class="hline"></div>
+                                <div class="hline"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="listmenu dropdown-menu">
+                        <ul class="list-unstyled">
+                            <li><a class="aboutlnk" href="">ABOUT</a></li>
+                            <li><a class="projectlnk" href="">PROJECTS</a></li>
+                            <li><a class="contactlnk" href="">CONTACT</a></li>
+                        </ul>
+                    </div>   
             </header>
             
             <section>
@@ -58,14 +69,14 @@
                         <div class="row">
                             <div class="grid-half">
                                 <div class="project-lnk">
-                                    <a><img src="http://fpoimg.com/510x240?text=Project"></a>
+                                    <a href=""><img src="http://fpoimg.com/510x240?text=Project"></a>
                                     <h4 class="project-header texthover">S&E</h4>
                                     <p class="project-p texthover">Design & Front-End</p>
                                 </div>
                             </div>
                             <div class="grid-half">
                                 <div class="project-lnk">
-                                    <a><img src="http://fpoimg.com/510x240?text=Project"></a>
+                                    <a href=""><img src="http://fpoimg.com/510x240?text=Project"></a>
                                     <h4 class="project-header texthover">S&E</h4>
                                     <p class="project-p texthover">Design & Front-End</p>
                                 </div>
@@ -74,14 +85,14 @@
                         <div class="row">
                             <div class="grid-half">
                                 <div class="project-lnk">
-                                    <a><img src="http://fpoimg.com/510x240?text=Project"></a>
+                                    <a href=""><img src="http://fpoimg.com/510x240?text=Project"></a>
                                     <h4 class="project-header texthover">S&E</h4>
                                     <p class="project-p texthover">Design & Front-End</p>
                                 </div>
                             </div>
                             <div class="grid-half padding-bottom">
                                 <div class="project-lnk">
-                                    <a><img src="http://fpoimg.com/510x240?text=Project"></a>
+                                    <a href=""><img src="http://fpoimg.com/510x240?text=Project"></a>
                                     <h4 class="project-header texthover">S&E</h4>
                                     <p class="project-p texthover">Design & Front-End</p>
                                 </div>
@@ -95,8 +106,10 @@
                         <h1 class="contacth1">CONTACT</h1>
                         <div class="line"></div>
                         <div class="btn-contact float-center">
-                            <h4 class="btnh"><a scr="mailto:efungr@gmail.com">SHOOT ME AN EMAIL</a></h4>
-                        </div>
+                            <a href="mailto:efungr@gmail.com">
+                                <h4 class="btnh hide-hover">SHOOT ME AN EMAIL</h4>
+                                <h4 class="btnh show-hover">SHOOT IT</h4>
+                            </a></div>
                         <h5 class="lnkh"><a href="#">DOWNLOAD RESUME</a></h5>
                     </div>
                 </div>
@@ -104,9 +117,9 @@
             </section>
             
             <footer>
-                <h1 class="lnksm"><a src="#">GITHUB</a></h1>
+                <h1 class="lnksm"><a href="https://github.com/efungr">GITHUB</a></h1>
                 <h1 class="lnksm">|</h1>
-                <h1 class="lnksm"><a src="#">LINKEDIN</a></h1>
+                <h1 class="lnksm"><a href="https://www.linkedin.com/in/erfung">LINKEDIN</a></h1>
             </footer>
         
         </div>
@@ -116,6 +129,7 @@
 
         <script src="dist/js/plugins.js"></script>
         <script src="dist/js/main.js"></script>
+        <script src="dist/js/portfolio.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

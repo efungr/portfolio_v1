@@ -48,7 +48,7 @@ a:hover{
 }
 
 a:visited{
-    color: #214457;
+    color: #0B233D;
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a:visited{
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
-    color: #F8F9ED;
+    color: #E8E8E8;
 }
 
 .subtitle {
@@ -76,13 +76,13 @@ a:visited{
 }
 
 .btnh{
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .lnkh{
-    letter-spacing: 2px;
-    font-size: 15px;
+    letter-spacing: 1px;
+    font-size: 13px;
     padding-top: 10vh;
 }
 
@@ -100,6 +100,20 @@ a:visited{
 .project-p{
 }
 
+ul{
+    font-family: 'VisbyCF-Bold', sans-serif;
+    font-size: 22px;
+    color: #666666;
+}
+
+li{
+    padding: 20px;
+    color: #666666;
+}
+
+li a:visited{
+    color: #666666;
+}
 
                   /* GLOBAL STYLES */
 
@@ -122,16 +136,52 @@ a:visited{
 
 .line{
     margin: 0 auto;
-    width: 75px;
-    height: 3px;
+    width: 80px;
+    height: 2.5px;
     background-color: #666666; 
 }
 
                   /* HAMBURGER STYLES */
 
+.menu{
+    position: fixed;
+    z-index: 2;
+    top: 5%;
+    right: 3.25%;
+
+}
+
+.hamburger{
+    padding: 5px;
+}
+
+.hline{
+    width: 50px;
+    height: 3px;
+    background-color: #666666;
+    margin: 15px;
+}
+
+.dropdown{
+}
+
+.listmenu{
+    display: none;
+    width: 100%;
+    height: %;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    background-color: #CCC;
+}
+
+.listmenu ul{
+    padding-top: 3%; 
+}
+
                   /* LANDING PAGE STYLES */
 .landing-page{
-    background-color: #98412E;
+    background-color: #990100;
     display: flex;
 }
 
@@ -142,7 +192,7 @@ a:visited{
 
                   /* ABOUT PAGE STYLES */
 .about-page{
-    background-color: #F8F9ED;
+    background-color: #E8E8E8;
     display: flex;
 }
 
@@ -175,7 +225,7 @@ a:visited{
 }
 
 .projects-page{
-    background-color: #F8F9ED;
+    background-color: #E8E8E8;
 }
 
 .projecth1{
@@ -185,7 +235,7 @@ a:visited{
 
 .contact-page{
     display: flex;
-    background-color: #F8F9ED;
+    background-color: #E8E8E8;
 }
 
 .contacth1{
@@ -194,10 +244,26 @@ a:visited{
 
 .btn-contact{
     max-width: 400px;
-    border-radius: 50px;
-    border: 6px double #B3B3B3;
+    border-radius: 15px;
+    border: 3px solid #666666;
     padding: 0;
-    margin-top: 15vh;
+    margin-top: 25vh;
+}
+
+.btn-contact:hover .hide-hover{
+    display: none;
+}
+
+.hide-hover{
+    display: block;
+}
+
+.btn-contact:hover .show-hover{
+    display: block;
+}
+
+.show-hover{
+    display: none;
 }
 
                   /* FOOTER PAGE STYLES */
@@ -205,7 +271,7 @@ a:visited{
 footer{
     height: 50px;
     width: 100%;
-    background-color: #F8F9ED;
+    background-color: #E8E8E8;
 }
 
                   /* PROJECT DETAILS PAGE STYLES */

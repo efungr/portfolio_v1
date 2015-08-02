@@ -1,40 +1,41 @@
-                  /* FONT STYLES */
+                  /* GLOBAL TEXT STYLES */
 
 h1{
     font-family: 'VisbyCF-Bold', sans-serif;
     font-size: 28px;
-    color: #666666;
+    color: #2D2837;
     letter-spacing: 2px;
 }
 
 h2{
     font-family: 'VisbyCF-Bold', sans-serif;
     font-size: 43px;
-    color: #666666;
+    color: #2D2837;
+    letter-spacing: 1.5px;
 }
 
 h3{
     font-family: 'VisbyCF-ExtraBold', sans-serif;
     font-size: 18pt;
-    color: #666666;
+    color: #2D2837;
 }
 
 h4{
     font-family: 'VisbyCF-Bold', sans-serif;
     font-size: 22px;
-    color: #666666;
+    color: #2D2837;
 }
 
 h5{
     font-family: 'VisbyCF-ExtraBold', sans-serif;
     font-size: 13px;
-    color: #666666;
+    color: #2D2837;
 }
 
 p{
     font-family: 'ArgentCF-LightItalic', serif;
     font-size: 18px;
-    color: #666666;
+    color: #2D2837;
 }
 
 a{
@@ -48,26 +49,8 @@ a:hover{
 }
 
 a:visited{
-    color: #0B233D;
+    color: #98412E;
     text-decoration: none;
-}
-
-.title{
-    font-family: 'VisbyCF-DemiBold', sans-serif;
-    font-size: 90px;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 0;
-    color: #E8E8E8;
-}
-
-.subtitle {
-    font-family: 'VisbyCF-DemiBold', sans-serif;
-    font-size: 21px;
-    letter-spacing: 9.5px;
-    padding: 4px 0;
-    margin: 0;
-    color: #DFDCB3;
 }
 
 .pbig{
@@ -91,29 +74,29 @@ a:visited{
     font-size: 10px;
 }
 
-.project-header{
-    padding-top: 0;
-    margin-bottom: 0;
-    letter-spacing: 1px;
-}
-
-.project-p{
+.lnksm, a:hover{
+    color: #96AB8A;
+    text-decoration: none;
 }
 
 ul{
     font-family: 'VisbyCF-Bold', sans-serif;
-    font-size: 22px;
-    color: #666666;
+    font-size: 18px;
+    color: #2D2837;
 }
 
 li{
-    padding: 20px;
-    color: #666666;
+    color: #2D2837;
 }
 
 li a:visited{
-    color: #666666;
+    color: #606060;
 }
+
+li a:hover{
+    color: #96AB8A;
+}
+
 
                   /* GLOBAL STYLES */
 
@@ -130,6 +113,10 @@ li a:visited{
     width: 80%;
 }
 
+.width70{
+    width: 70%;
+}
+
 .padding-bottom{
     padding-bottom: 10vh;
 }
@@ -138,7 +125,7 @@ li a:visited{
     margin: 0 auto;
     width: 80px;
     height: 2.5px;
-    background-color: #666666; 
+    background-color: #B3B3B3; 
 }
 
                   /* HAMBURGER STYLES */
@@ -146,8 +133,8 @@ li a:visited{
 .menu{
     position: fixed;
     z-index: 2;
-    top: 5%;
-    right: 3.25%;
+    top: 2%;
+    right: 1%;
 
 }
 
@@ -156,10 +143,10 @@ li a:visited{
 }
 
 .hline{
-    width: 50px;
+    width: 30px;
     height: 3px;
-    background-color: #666666;
-    margin: 15px;
+    background-color: #B3B3B3;
+    margin: 8px;
 }
 
 .dropdown{
@@ -168,21 +155,45 @@ li a:visited{
 .listmenu{
     display: none;
     width: 100%;
-    height: %;
     z-index: 1;
     position: fixed;
     top: 0;
-    background-color: #CCC;
+    right: 0;
+    background-color: #DFDCB3;
 }
 
 .listmenu ul{
-    padding-top: 3%; 
+    padding-top: 2%; 
+}
+
+.listmenu li{
+    padding: 0 7%;
+    display: inline;
 }
 
                   /* LANDING PAGE STYLES */
 .landing-page{
     background-color: #990100;
     display: flex;
+}
+
+
+.title{
+    font-family: 'VisbyCF-DemiBold', sans-serif;
+    font-size: 90px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFF7;
+}
+
+.subtitle {
+    font-family: 'VisbyCF-DemiBold', sans-serif;
+    font-size: 21px;
+    letter-spacing: 9.5px;
+    padding: 4px 0;
+    margin: 0;
+    color: #DFDCB3;
 }
 
 .titletext{
@@ -192,7 +203,7 @@ li a:visited{
 
                   /* ABOUT PAGE STYLES */
 .about-page{
-    background-color: #E8E8E8;
+    background-color: #FFFFF7;
     display: flex;
 }
 
@@ -208,8 +219,23 @@ li a:visited{
 .aboutp{
 }
                   /* PROJECTS PAGE STYLES */
+
+.projects-page{
+    background-color: #FFFFF7;
+}
+
+.projecth1{
+    padding: 15vh 0 0 0;
+}
+
 .projecth1+.line{
     margin-bottom: 15vh;
+}
+
+.project-header{
+    padding-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
 }
 
 .texthover{
@@ -224,18 +250,11 @@ li a:visited{
     
 }
 
-.projects-page{
-    background-color: #E8E8E8;
-}
-
-.projecth1{
-    padding: 15vh 0 0 0;
-}
-                  /* CONTACT PAGE STYLES */
+                        /* CONTACT PAGE STYLES */
 
 .contact-page{
     display: flex;
-    background-color: #E8E8E8;
+    background-color: #FFFFF7;
 }
 
 .contacth1{
@@ -271,14 +290,38 @@ li a:visited{
 footer{
     height: 50px;
     width: 100%;
-    background-color: #E8E8E8;
+    background-color: #FFFFF7;
 }
-
-                  /* PROJECT DETAILS PAGE STYLES */
-
 
 .lnksm{
     display: inline-block;
     padding: 0;
     margin: 0;
 }
+
+                  /* PROJECT DETAILS PAGE STYLES */
+
+.title-desc{
+}
+
+.logo{
+    margin: 75px 0 25px 0;
+    width: 80px;
+}
+.project-title{
+    margin: 0;
+    padding: 0;
+}
+
+.project-job{
+}
+
+.project-job,li,h5{
+    display: inline;
+    padding: 2px;
+}
+
+.project-details{
+    padding-top: 55px;
+}
+

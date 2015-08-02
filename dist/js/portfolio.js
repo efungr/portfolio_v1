@@ -1,7 +1,7 @@
 $(document).ready(function () {
     
     $(".dropdown").click(function () {
-        $(".dropdown-menu").slideToggle(100, function () {
+        $(".dropdown-menu").slideToggle(400, function () {
         });
     });    
 

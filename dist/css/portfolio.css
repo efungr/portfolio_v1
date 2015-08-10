@@ -59,6 +59,7 @@ a:visited{
 }
 
 .btnh{
+    color: #F0F2EB;
     font-size: 17px;
     letter-spacing: 2px;
 }
@@ -122,6 +123,7 @@ li a:hover{
     padding-bottom: 10vh;
 }
 
+
 .line{
     margin: 0 auto;
     width: 80px;
@@ -174,6 +176,7 @@ li a:hover{
 
                   /* LANDING PAGE STYLES */
 .landing-page{
+    text-align: center;
     background-color: #990100;
     display: flex;
 }
@@ -185,7 +188,7 @@ li a:hover{
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
-    color: #FFFFF7;
+    color: #F0F2EB;
 }
 
 .subtitle {
@@ -200,13 +203,15 @@ li a:hover{
 .titletext{
     display: table-cell;
     height: 100vh;
-    width: 1980px;
+    width: 1000vh;
     vertical-align: middle;
 }
 
                   /* ABOUT PAGE STYLES */
+
+
 .about-page{
-    background-color: #FFFFF7;
+    background-color: #F0F2EB;
     display: flex;
 }
 
@@ -224,7 +229,7 @@ li a:hover{
                   /* PROJECTS PAGE STYLES */
 
 .projects-page{
-    background-color: #FFFFF7;
+    background-color: #F0F2EB;
 }
 
 .projecth1{
@@ -257,7 +262,7 @@ li a:hover{
 
 .contact-page{
     display: flex;
-    background-color: #FFFFF7;
+    background-color: #F0F2EB;
 }
 
 .contacth1{
@@ -267,9 +272,9 @@ li a:hover{
 .btn-contact{
     max-width: 400px;
     border-radius: 50px;
-    border: 6px double #B3B3B3;
-    background: #;
-    padding: 0;
+    border: 6px double #F0F2EB;
+    background: #B3B3B3;
+    padding: 5px;
     margin-top: 25vh;
 }
 
@@ -292,10 +297,11 @@ li a:hover{
                   /* FOOTER PAGE STYLES */
 
 footer{
+    text-align: center;
     bottom: 0px;
     height: 50px;
     width: 100%;
-    background-color: #FFFFF7;
+    background-color: #F0F2EB;
 }
 
 .lnksm{

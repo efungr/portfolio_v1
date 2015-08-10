@@ -2,9 +2,9 @@
 
 h1{
     font-family: 'VisbyCF-Bold', sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     color: #2D2837;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 h2{
@@ -49,7 +49,7 @@ a:hover{
 }
 
 a:visited{
-    color: #98412E;
+    color: #606060;
     text-decoration: none;
 }
 
@@ -59,14 +59,15 @@ a:visited{
 }
 
 .btnh{
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
 
 .lnkh{
+    display: inline-block;
     letter-spacing: 1px;
     font-size: 13px;
-    padding-top: 10vh;
+    padding: 3%;
 }
 
 .lnksm{
@@ -197,8 +198,10 @@ li a:hover{
 }
 
 .titletext{
-    width: 100%;
-    margin-top: 40vh;
+    display: table-cell;
+    height: 100vh;
+    width: 1980px;
+    vertical-align: middle;
 }
 
                   /* ABOUT PAGE STYLES */
@@ -212,7 +215,7 @@ li a:hover{
 }
 
 .aboutbp{
-    padding-top: 25vh;
+    padding: 25vh 0 0 0;
     margin-bottom: 0;
 }
 
@@ -263,8 +266,9 @@ li a:hover{
 
 .btn-contact{
     max-width: 400px;
-    border-radius: 15px;
-    border: 3px solid #666666;
+    border-radius: 50px;
+    border: 6px double #B3B3B3;
+    background: #;
     padding: 0;
     margin-top: 25vh;
 }
@@ -288,6 +292,7 @@ li a:hover{
                   /* FOOTER PAGE STYLES */
 
 footer{
+    bottom: 0px;
     height: 50px;
     width: 100%;
     background-color: #FFFFF7;

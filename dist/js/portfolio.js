@@ -9,5 +9,20 @@ $(document).ready(function () {
 		e.preventDefault();
 		$(".anchorhome").ScrollTo();
 	});
+    
+    $('.aboutlnk').on('click', function (e) {
+		e.preventDefault();
+		$(".anchorabout").ScrollTo();
+	});
+    
+    $('.projectlnk').on('click', function (e) {
+		e.preventDefault();
+		$(".anchorproject").ScrollTo();
+	});
+    
+    $('.contactlnk').on('click', function (e) {
+		e.preventDefault();
+		$(".anchorcontact").ScrollTo();
+	});
 
 });

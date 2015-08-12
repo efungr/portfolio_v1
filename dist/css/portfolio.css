@@ -111,6 +111,7 @@ li a:hover{
                   /* GLOBAL STYLES */
 
 .container{
+    background-color: #F0F2EB;
     text-align: center;
     width: 100%;
 }

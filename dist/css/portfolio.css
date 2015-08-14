@@ -285,7 +285,7 @@ body{
     max-width: 400px;
     border-radius: 50px;
     border: 6px double #F0F2EB;
-    background: #214457;
+    background: #990100;
     padding: 5px;
     margin-top: 10em;
         transition: opacity 0.3s;
@@ -352,6 +352,12 @@ footer{
     padding: 0;
 }
 
+.project-subtitle{
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
 .project-job{
 }
 
@@ -368,7 +374,7 @@ footer{
     max-width: 200px;
     border-radius: 50px;
     border: 6px double #F0F2EB;
-    background: #214457;
+    background: #990100;
     padding: px;
     margin-top: 2em;
         transition: opacity 0.3s;

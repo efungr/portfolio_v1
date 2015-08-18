@@ -121,7 +121,7 @@ body{
 }
 
 .vhfull{
-    min-height: 100vh;
+    min-height: 640px;
 }
 
 .width80{
@@ -182,12 +182,14 @@ a:hover img{
 }
 
 .listmenu ul{
-    padding-top: 2%; 
+    width: 70%;
+    padding-top: 3%; 
 }
 
 .listmenu li{
-    padding: 0 7%;
-    display: inline;
+    width: 100%;
+    padding: 5% 5%;
+    display: inline-block;
 }
 
                   /* LANDING PAGE STYLES */
@@ -233,11 +235,11 @@ a:hover img{
 
 .abouth1{
     position: relative;
-    padding: 5em 0 0 0;
+    padding: 2em 0 0 0;
 }
 
 .aboutbp{
-    padding: 7em 0 0 0;
+    padding: 6em 0 0 0;
     margin-bottom: 0;
 }
 
@@ -250,7 +252,7 @@ a:hover img{
 }
 
 .projecth1{
-    padding: 5em 0 0 0;
+    padding: 2em 0 0 0;
 }
 
 .projecth1+.line{
@@ -263,8 +265,8 @@ a:hover img{
 }
 
 .texthover{
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
     transition:opacity 0.5s ease-in-out;
 }
 
@@ -281,7 +283,7 @@ a:hover img{
 }
 
 .contacth1{
-    padding: 5em 0 0 0;
+    padding: 4em 0 0 0;
 }
 
 .btn-contact{
@@ -290,7 +292,7 @@ a:hover img{
     border: 6px double #F0F2EB;
     background: #990100;
     padding: 5px;
-    margin-top: 10em;
+    margin-top: 9em;
         transition: opacity 0.3s;
 -webkit-transition: all ease 0.3s;
    -moz-transition: all ease 0.3s;
@@ -402,10 +404,83 @@ footer{
 }
 
 
-@media (min-width: 790px) {
+                    /*////////// @MEDIA /////////////*/
 
-    .photosubtitle{
-        width: 25%;
+
+@media (min-width: 736px ) {
+
+                      /* GLOBAL STYLES */
+
+
+    .vhfull{
+        min-height: 100vh;
     }
+    
+                      /* HAMBURGER STYLES */
+
+
+    .listmenu{
+        display: none;
+        width: 100%;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #DFDCB3;
+    }
+
+    .listmenu ul{
+        width: 90%;
+        padding-top: 2%; 
+    }
+
+    .listmenu li{
+        padding: 0 5%;
+        display: inline;
+    }
+
+         /* ABOUT PAGE STYLES */
+
+
+    .abouth1{
+        padding: 5em 0 0 0;
+    }
+
+    .aboutbp{
+        padding: 7em 0 0 0;
+        margin-bottom: 0;
+    }
+
+                      /* PROJECTS PAGE STYLES */
+
+
+    .projecth1{
+        padding: 5em 0 0 0;
+    }
+
+    .projecth1+.line{
+        margin-bottom: 5em;
+    }
+
+
+    .texthover{
+        visibility: hidden;
+        opacity: 0;
+        transition:opacity 0.5s ease-in-out;
+    }
+
+    .project-lnk:hover .texthover{
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+                            /* CONTACT PAGE STYLES */
+
+
+    .contacth1{
+        padding: 5em 0 0 0;
+    }
+
     
 }

@@ -239,11 +239,12 @@ a:hover img{
 }
 
 .aboutbp{
-    padding: 6em 0 0 0;
+    padding: 5em 0 20px 0;
     margin-bottom: 0;
 }
 
 .aboutp{
+    padding: 0;
 }
                   /* PROJECTS PAGE STYLES */
 
@@ -361,7 +362,7 @@ footer{
     font-size: 20px;
     letter-spacing: 4px;
     margin: 0;
-    padding: 0 0 5px 0;
+    padding: 5px 0;
 }
 .project-job{
 }
@@ -447,8 +448,11 @@ footer{
     }
 
     .aboutbp{
-        padding: 7em 0 0 0;
+        padding: 5em 0 20px 0;
         margin-bottom: 0;
+    }
+    .aboutp{
+        width: 70%;
     }
 
                       /* PROJECTS PAGE STYLES */

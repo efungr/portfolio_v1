@@ -95,7 +95,7 @@ ul{
     color: #2D2837;
 }
 
-li a{
+a li{
     color: #214457;
 }
 
@@ -399,4 +399,13 @@ footer{
 
 .return-home{
     padding: 1em 0 2em 0;
+}
+
+
+@media (min-width: 790px) {
+
+    .photosubtitle{
+        width: 25%;
+    }
+    
 }
